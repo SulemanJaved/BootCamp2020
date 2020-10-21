@@ -31,6 +31,3 @@ jobs:
         run: npn install --global surge
       - name: depolying using surge
         run: surges ./ http://bootcamp2020suleman.surge.sh --token ${{ secrets.SURGE_TOKEN }}
-    
-          echo Add other actions to build,
-          echo test, and deploy your project.
