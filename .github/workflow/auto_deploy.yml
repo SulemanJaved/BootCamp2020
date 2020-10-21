@@ -30,4 +30,4 @@ jobs:
       - name: Installing surge
         run: npn install --global surge
       - name: depolying using surge
-        run: surges ./ bootcamp2020suleman.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+        run: surge ./ bootcamp2020suleman.surge.sh --token ${{ secrets.SURGE_TOKEN }}
